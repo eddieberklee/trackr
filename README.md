@@ -4,5 +4,7 @@
 
 App for tracking your BAC (don't get too drunk bro), what you've drank (build up a list of all the drinks you've ever had), and be able to join a group (see how drunk all your friends are).
 
+------------
 
+Using ActiveAndroid as the Database ORM (ORM = easier and more abstracted way to deal with database stuff)
 

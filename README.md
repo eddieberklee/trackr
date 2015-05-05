@@ -6,5 +6,11 @@ App for tracking your BAC (don't get too drunk bro), what you've drank (build up
 
 ------------
 
+Check out *Issues* for tickets to work on.
+
+The folder *design* is for the specs/designs of the different screens. As of now, they'll just be pictures of sketches on paper ;P
+
+------------
+
 Using ActiveAndroid as the Database ORM (ORM = easier and more abstracted way to deal with database stuff)
 

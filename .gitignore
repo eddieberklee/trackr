@@ -1,7 +1,27 @@
-.gradle
+.settings
+.settings/
+project.properties
+
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
 .DS_Store
 /build
+
+# intellij
+*.iws
+*.iml
+.idea/
+
+# vim
 *.sw*
+
+# gradle
+.gradle
+build
+app/build
+tests/build
+unitTests/build
+
+
+

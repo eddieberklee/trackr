@@ -9,6 +9,8 @@ import android.widget.ListView;
 import com.activeandroid.ActiveAndroid;
 import com.compscieddy.trackr.db.Category;
 import com.compscieddy.trackr.db.Item;
+import com.parse.Parse;
+import com.parse.ParseObject;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -17,6 +19,13 @@ public class MainActivity extends ActionBarActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     ActiveAndroid.initialize(this);
+    // Enable Local Datastore.
+    Parse.enableLocalDatastore(this);
+    Parse.initialize(this, "HIFJftTa07ItuI2gku6Z9J79SyDj3N7XoNTNb7UK", "SC9S7DcvYUFZImFBM3bTYZePnAWpmc9YWS9u7yi3");
+
+    ParseObject testObject = new ParseObject("TestObject");
+    testObject.put("foo", "bar");
+    testObject.saveInBackground();
 
     setContentView(R.layout.activity_main);
 

@@ -12,6 +12,7 @@ project.properties
 *.iws
 *.iml
 .idea/
+.idea/gradle.xml
 
 # vim
 *.sw*

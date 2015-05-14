@@ -4,5 +4,11 @@
     <string name="app_name">Trackr</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="error_intro"> </string>
+    <string name="error_blank_username">Username Empty</string>
+    <string name="error_join"> and </string>
+    <string name="error_blank_password"> Password Empty </string>
+    <string name="error_end"> Fix It Dumbass! </string>
+    <string name="error_mismatched_passwords"> Passwords Do Not Match, Dumbass! </string>
 
 </resources>

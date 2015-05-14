@@ -20,8 +20,6 @@ public class MainActivity extends ActionBarActivity {
     super.onCreate(savedInstanceState);
     ActiveAndroid.initialize(this);
     // Enable Local Datastore.
-    Parse.enableLocalDatastore(this);
-    Parse.initialize(this, "HIFJftTa07ItuI2gku6Z9J79SyDj3N7XoNTNb7UK", "SC9S7DcvYUFZImFBM3bTYZePnAWpmc9YWS9u7yi3");
 
     ParseObject testObject = new ParseObject("TestObject");
     testObject.put("foo", "bar");

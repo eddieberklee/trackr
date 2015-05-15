@@ -12,12 +12,6 @@
         android:theme="@style/AppTheme"
         android:name=".StartApplication">
 
-        <meta-data android:name="AA_DB_NAME" android:value="compscieddy.db" />
-        <meta-data android:name="AA_DB_VERSION" android:value="1" />
-        <!-- Specify the models directly so that ActiveAndroid doesn't need to scan through to find Model classes -->
-        <meta-data android:name="AA_MODELS"
-                   android:value="com.myapp.model.Item, com.myapp.model.Category" />
-
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >

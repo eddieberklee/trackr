@@ -9,10 +9,10 @@ import com.parse.ParseUser;
 /**
  * Created by Josh on 5/13/2015.
  */
-public class SignedInCheckActivity extends Activity{
+public class SignedInCheckActivity extends Activity {
 
     @Override
-    public void onCreate(Bundle savedInstanceState){
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         // Check if there is current user info

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleShadowView">
+        <attr name="circleColor" format="color"/>
+        <attr name="shadowStartColor" format="color"/>
+        <attr name="shadowEndColor" format="color"/>
+        <attr name="circlePadding" format="dimension"/>
+        <attr name="shadowDistance" format="dimension"/>
+    </declare-styleable>
+
+</resources>

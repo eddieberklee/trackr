@@ -25,5 +25,6 @@ The folder *design* is for the specs/designs of the different screens. As of now
 
 ------------
 
-Using ActiveAndroid as the Database ORM (ORM = easier and more abstracted way to deal with database stuff)
+
+
 
